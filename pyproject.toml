@@ -1,0 +1,23 @@
+[project]
+name = "ssiat"
+version = "0.1.0"
+description = "Learning AI end-to-end by building a small Korean-English language model from scratch"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0",
+    "matplotlib>=3.9",
+    "torch>=2.4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "ruff>=0.6",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

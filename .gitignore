@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Data, tokens, checkpoints — never commit large files
+data/
+datasets/
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.npy
+*.npz
+checkpoints/
+runs/
+wandb/
+
+# Env / OS
+.env
+.DS_Store
